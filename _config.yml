@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ title                    : "Manthan Patel"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Manthan Patel"
-description              : "An amazing website."
+description              : "Portfolio of a robotics graduate student"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -107,7 +107,7 @@ author:
   name             : "Manthan Patel"
   avatar           : "/assets/images/bio.jpg"
   bio              : "Graduate student pursuing MSc. in Robotics at ETH Zurich with focus on Computer Vision for field robots"
-  location         : "Pasadena CA"
+  location         : "Pasadena, CA"
   email            :
   links:
     - label: "Email"
@@ -276,14 +276,9 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "pages"
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
