@@ -3,6 +3,7 @@ layout: posts
 author_profile: true
 permalink: /
 classes: wide
+title: 
 ---
 
 ## About Me {#about}
