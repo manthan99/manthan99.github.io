@@ -5,7 +5,7 @@ permalink: /
 classes: wide
 title: 
 ---
-<h7>M</h7>
+<h7></h7>
 
 ## About Me {#about}
 {::nomarkdown}
