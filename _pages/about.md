@@ -86,6 +86,43 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
 
   <!-- Left side with image -->
   <div style="width: 35%;">
+    <img src="../assets/images/roadrunner1.png" alt="COVINS-G expriment" style="width: 100%; height: auto;margin-top: 40px; auto;margin-bottom: 20px;">
+    <img src="../assets/images/roadrunner_diag.png" alt="COVINS-G architecture" style="width: 100%; height: auto;">
+  </div>
+
+  <!-- Right side with details -->
+    <!-- Right side with details -->
+  <div style="width: 75%; margin-left: 10px;">
+
+    <!-- Title -->
+    <h4 style="margin: 0;">RoadRunner - Learning Traversability Estimation for Autonomous Off-road Driving</h4>
+
+    <!-- Authors -->
+    <p style="margin: 0; font-size: 14px;"><i>Jonas Frey, Shehryar Khattak, <u>Manthan Patel</u>,  D Atha, J Nubert, C Padgett, M Hutter, P Spieler </i></p>
+
+    <!-- Conference Name -->
+    <p style="margin: 0; font-size: 14px;">Arxiv preprint</p>
+
+    <!-- Abstract -->
+    <p style="margin: 0; text-align: justify; font-size: 16px;">
+
+    Autonomous navigation at high speeds in off-road environments necessitates robots to comprehensively understand their surroundings using onboard sensing only. The extreme conditions posed by the off-road setting can cause degraded camera image quality due to poor lighting and motion blur, as well as limited sparse geometric information available from LiDAR sensing when driving at high speeds. In this work, we present RoadRunner, a novel framework capable of predicting terrain traversability and an elevation map directly from camera and LiDAR sensor inputs. RoadRunner enables reliable autonomous navigation, by fusing sensory information, handling of uncertainty, and generation of contextually informed predictions about the geometry and traversability of the terrain while operating at low latency. In contrast to existing methods relying on classifying handcrafted semantic classes and using heuristics to predict traversability costs, our method is trained end-to-end in a self-supervised fashion. The RoadRunner network architecture builds upon popular sensor fusion network architectures from the autonomous driving domain, which embed LiDAR and camera information into a common Bird's Eye View perspective. Training is enabled by utilizing an existing traversability estimation stack to generate training data in hindsight in a scalable manner from real-world off-road driving datasets. Furthermore, RoadRunner improves the system latency by a factor of roughly 4, from 500 ms to 140 ms, while improving the accuracy for traversability costs and elevation map predictions. We demonstrate the effectiveness of RoadRunner in enabling safe and reliable off-road navigation at high speeds in multiple real-world driving scenarios through unstructured desert environments.
+
+    </p>
+    
+
+    <!-- Links -->
+    <p style="margin: 0; font-size: 16px;">
+  <a href="https://arxiv.org/abs/2402.19341" style="text-decoration: none; color: #0366d6;">[Arxiv]</a> |
+  <a href="https://arxiv.org/abs/2402.19341.pdf" style="text-decoration: none; color: #0366d6;">[Paper]</a>
+  </p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+
+  <!-- Left side with image -->
+  <div style="width: 35%;">
     <img src="../assets/images/covins_1.png" alt="COVINS-G expriment" style="width: 100%; height: auto;margin-bottom: 10px;">
 
     <img src="../assets/images/covins_2.png" alt="COVINS-G architecture" style="width: 100%; height: auto;">
@@ -114,8 +151,8 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
 
     <!-- Links -->
     <p style="margin: 0; font-size: 16px;">
-  <a href="https://arxiv.org/abs/2301.07147.pdf" style="text-decoration: none; color: #0366d6;">[Arxiv]</a> |
-  <a href="https://arxiv.org/abs/2301.07147" style="text-decoration: none; color: #0366d6;">[Paper]</a> |
+  <a href="https://arxiv.org/abs/2301.07147" style="text-decoration: none; color: #0366d6;">[Arxiv]</a> |
+  <a href="https://arxiv.org/abs/2301.07147.pdf" style="text-decoration: none; color: #0366d6;">[Paper]</a> |
   <a href="https://youtu.be/xPjRJjKUmi0?si=Zua5ouuUjN_Bg0uK" style="text-decoration: none; color: #0366d6;">[Presentation]</a> |
   <a href="https://youtu.be/FoJfXCfaYDw?si=XWyvDxcUUuPHoZSZ" style="text-decoration: none; color: #0366d6;">[Experiments]</a> |
   <a href="https://github.com/VIS4ROB-lab/covins" style="text-decoration: none; color: #0366d6;">[GitHub]</a>
@@ -222,6 +259,20 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
 ---
 <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
 
+  <!-- Left side with month and year -->
+  <div style="width: 15%;">
+    <p style="margin: 0; font-size: 14px;">Sep 2023 - Apr 2024</p>
+  </div>
+  <!-- Right side with title and description -->
+  <div style="width: 80%; margin-left: 10px;">
+    <!-- Title -->
+    <h3 style="margin: 0; font-size: 16px;">JPL Visiting Student Research Program</h3>
+    <!-- Description -->
+    <p style="margin: 0; font-size: 14px;">JPL Visiting Student Research Fellow for conducting my master's thesis at NASA JPL, Pasadena, CA</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
   <!-- Left side with month and year -->
   <div style="width: 15%;">
     <p style="margin: 0; font-size: 14px;">Sep 2021 - Mar 2023</p>
