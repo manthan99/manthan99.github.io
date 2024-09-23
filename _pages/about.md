@@ -12,17 +12,29 @@ title:
 <div style="text-align: justify;">
 {:/}
 ---
-I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zurich. My interests lie in various aspects of field robotics with a particular focus on perception for robots. I am currently a visiting student researcher at NASA Jet Propulsion Laboratory (JPL) working on traversability mapping for offroad environments supervised by [Dr. Shehryar Khattak](https://www-robotics.jpl.nasa.gov/who-we-are/people/shehryar-khattak/) at JPL and [Prof. Marco Hutter](https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html) at ETH Zurich. Prior to this I have worked on projects involving Neural implicit SLAM, high speed motion estimation, Collaborative Visual Inertial SLAM and Lidar guided Object detection. I have had the opportunity to work with a diverse range of sensors ranging from dynamic vision sensor (event camera), RGB/RGBD/Stereo cameras to LiDARs and IMUs. I have experience working on different robotc platforms including flying robots (quadcopters, hexacopters), wheeled ground robots (Polaris RZR Dune Buggy, SuperMegaBot, Clearpath Husky UGV) and legged robots (ANYmal C).  
+I am a robotics engineer currently working as a <strong>research engineer</strong> at the <strong>Robotic Systems Lab</strong>, ETH Zurich. I obtained my MSc. in <strong>Robotics, Systems and Control</strong> at <strong>ETH Zurich</strong> in 2024. My interests lie in various aspects of field robotics with a particular focus on <strong>perception for robots</strong>. I did my master's thesis at <strong>NASA Jet Propulsion Laboratory (JPL)</strong>, CA, USA working on <strong>traversability mapping</strong> for offroad environments. Prior to this I have worked on projects involving <strong>Neural implicit SLAM, high speed motion estimation, Collaborative Visual Inertial SLAM and Lidar guided Object detection</strong>. I have had the opportunity to work with a diverse range of sensors ranging from dynamic vision sensor (event camera), RGB/RGBD/Stereo cameras to LiDARs and IMUs. I have experience working on different robotic platforms including legged robots (ANYmal C, D), wheeled ground robots (Polaris RZR Dune Buggy, SuperMegaBot, Clearpath Husky UGV) and flying robots (quadcopters, hexacopters). 
 
 {::nomarkdown}
 </div>
 {:/}
 
+## Work Experience
+---
+<div style="display: flex; justify-content: space-between; margin-bottom: -10px;">
+  <div style="width: 20%;">
+    <p style="margin-bottom: 0;">2024 - Present</p>
+  </div>
+  <div style="width: 75%;">
+     <p style="margin-bottom: 0;"><strong>Robotic Systems Lab, ETH Zurich, Switzerland</strong><br>Robotics Research Engineer<br>
+     <b>Projects:</b> Long-range autonomous hiking with ANYmal,<br> Large-scale synthetic perception dataset for goround robots</p>
+  </div>
+</div>
+
 ## Education
 ---
 <div style="display: flex; justify-content: space-between; margin-bottom: -10px;">
   <div style="width: 20%;">
-    <p style="margin-bottom: 0;">2021 - Present</p>
+    <p style="margin-bottom: 0;">2021 - 2024</p>
   </div>
   <div style="width: 75%;">
      <p style="margin-bottom: 0;"><strong>ETH Zurich, Switzerland</strong><br>Master of Science (MSc.) in Robotics, Systems, and Control</p>
@@ -41,7 +53,7 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
 ---
 <div style="display: flex; justify-content: space-between; margin-bottom: -10px;">
   <div style="width: 20%;">
-    <p style="margin-bottom: 0;">Sep 2023  - Present </p>
+    <p style="margin-bottom: 0;">Sep 2023  - Apr 2024 </p>
   </div>
   <div style="width: 75%;">
      <p style="margin-bottom: 0;"><strong>Perception Systems (347J), NASA Jet Propulsion Laboratory, Pasadena, USA</strong><br>Master's Thesis <br><b>Project:</b> Bird's Eye View Learning for Traversability Mapping of Offroad Environments</p>
@@ -86,8 +98,84 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
 
   <!-- Left side with image -->
   <div style="width: 35%;">
-    <img src="../assets/images/roadrunner1.png" alt="COVINS-G expriment" style="width: 100%; height: auto;margin-top: 40px; auto;margin-bottom: 20px;">
-    <img src="../assets/images/roadrunner_diag.png" alt="COVINS-G architecture" style="width: 100%; height: auto;">
+    <img src="../assets/images/cover_pic_rrmm.png" alt="RoadRunner M&M" style="width: 100%; height: auto;margin-top: 10px; auto;margin-bottom: 20px;">
+    <img src="../assets/images/vehicle.png" alt="Polaris vehicle" style="width: 100%; height: auto;margin-top: 20px; auto;margin-bottom: 20px;">
+  </div>
+
+  <!-- Right side with details -->
+    <!-- Right side with details -->
+  <div style="width: 75%; margin-left: 10px;">
+
+    <!-- Title -->
+    <h4 style="margin: 0;">RoadRunner M&M -- Learning Multi-range Multi-resolution Traversability Maps for Autonomous Off-road Navigation</h4>
+
+    <!-- Authors -->
+    <p style="margin: 0; font-size: 14px;"><i><u>Manthan Patel</u>, Jonas Frey, Deegan Atha, Patrick Spieler, Marco Hutter, Shehryar Khattak </i></p>
+
+    <!-- Conference Name -->
+    <p style="margin: 0; font-size: 14px;">Under review for IEEE RA-L</p>
+
+    <!-- Abstract -->
+    <p style="margin: 0; text-align: justify; font-size: 16px;">
+
+    Autonomous robot navigation in off-road environments requires a comprehensive understanding of the terrain geometry and traversability. The degraded perceptual conditions and sparse geometric information at longer ranges make the problem challenging especially when driving at high speeds. Furthermore, the sensing-to-mapping latency and the look-ahead map range can limit the maximum speed of the vehicle. Building on top of the recent work RoadRunner, in this work, we address the challenge of long-range (100 m) traversability estimation. Our RoadRunner (M&M) is an end-to-end learning-based framework that directly predicts the traversability and elevation maps at multiple ranges (50 m, 100 m) and resolutions (0.2 m, 0.8 m) taking as input multiple images and a LiDAR voxel map. Our method is trained in a self-supervised manner by leveraging the dense supervision signal generated by fusing predictions from an existing traversability estimation stack (X-Racer) in hindsight and satellite Digital Elevation Maps. RoadRunner M&M achieves a significant improvement of up to 50% for elevation mapping and 30% for traversability estimation over RoadRunner, and is able to predict in 30% more regions compared to X-Racer while achieving real-time performance. Experiments on various out-of-distribution datasets also demonstrate that our data-driven approach starts to generalize to novel unstructured environments. We integrate our proposed framework in closed-loop with the path planner to demonstrate autonomous high-speed off-road robotic navigation in challenging real-world environments. 
+
+    </p>
+    
+
+    <!-- Links -->
+    <p style="margin: 0; font-size: 16px;">
+  <a href="https://arxiv.org/abs/2409.10940" style="text-decoration: none; color: #0366d6;">[Arxiv]</a> |
+  <a href="https://arxiv.org/pdf/2409.10940.pdf" style="text-decoration: none; color: #0366d6;">[Paper]</a>
+  <a href="https://leggedrobotics.github.io/roadrunner_mm/" style="text-decoration: none; color: #0366d6;">[Project Page]</a>
+  </p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+
+  <!-- Left side with image -->
+  <div style="width: 35%;">
+    <img src="../assets/images/glorie1.png" alt="glorie slam results" style="width: 100%; height: auto;margin-top: 10px; auto;margin-bottom: 20px;">
+    <img src="../assets/images/glorieslam.png" alt="glorie slam results" style="width: 100%; height: auto;margin-top: 10px; auto;margin-bottom: 20px;">
+  </div>
+
+  <!-- Right side with details -->
+    <!-- Right side with details -->
+  <div style="width: 75%; margin-left: 10px;">
+
+    <!-- Title -->
+    <h4 style="margin: 0;">GlORIE-SLAM: Globally Optimized RGB-only Implicit Encoding Point Cloud SLAM</h4>
+
+    <!-- Authors -->
+    <p style="margin: 0; font-size: 14px;"><i>Ganlin Zhang*, Erik Sandström*, Youmin Zhang, <u>Manthan Patel</u>, Luc Van Gool, Martin R. Oswald </i></p>
+
+    <!-- Conference Name -->
+    <p style="margin: 0; font-size: 14px;">Under review for IEEE RA-L</p>
+
+    <!-- Abstract -->
+    <p style="margin: 0; text-align: justify; font-size: 16px;">
+
+    Recent advancements in RGB-only dense Simultaneous Localization and Mapping (SLAM) have predominantly utilized grid-based neural implicit encodings and/or struggle to efficiently realize global map and pose consistency. To this end, we propose an efficient RGB-only dense SLAM system using a flexible neural point cloud scene representation that adapts to keyframe poses and depth updates, without needing costly backpropagation. Another critical challenge of RGB-only SLAM is the lack of geometric priors. To alleviate this issue, with the aid of a monocular depth estimator, we introduce a novel DSPO layer for bundle adjustment which optimizes the pose and depth of keyframes along with the scale of the monocular depth. Finally, our system benefits from loop closure and online global bundle adjustment and performs either better or competitive to existing dense neural RGB SLAM methods in tracking, mapping and rendering accuracy on the Replica, TUM-RGBD and ScanNet datasets.
+
+    </p>
+    
+
+    <!-- Links -->
+    <p style="margin: 0; font-size: 16px;">
+  <a href="https://arxiv.org/abs/2403.19549" style="text-decoration: none; color: #0366d6;">[Arxiv]</a> |
+  <a href="https://arxiv.org/pdf/2403.19549" style="text-decoration: none; color: #0366d6;">[Paper]</a>
+  <a href="https://ganlinzhang.xyz/GlORIE-SLAM/" style="text-decoration: none; color: #0366d6;">[Project Page]</a>
+  </p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+
+  <!-- Left side with image -->
+  <div style="width: 35%;">
+    <img src="../assets/images/roadrunner1.png" alt="Racer-X Architecture" style="width: 100%; height: auto;margin-top: 40px; auto;margin-bottom: 20px;">
+    <img src="../assets/images/roadrunner_diag.png" alt="RoadRunner architecture" style="width: 100%; height: auto;">
   </div>
 
   <!-- Right side with details -->
@@ -98,10 +186,10 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
     <h4 style="margin: 0;">RoadRunner - Learning Traversability Estimation for Autonomous Off-road Driving</h4>
 
     <!-- Authors -->
-    <p style="margin: 0; font-size: 14px;"><i>Jonas Frey, Shehryar Khattak, <u>Manthan Patel</u>,  D Atha, J Nubert, C Padgett, M Hutter, P Spieler </i></p>
+    <p style="margin: 0; font-size: 14px;"><i>Jonas Frey, <u>Manthan Patel</u>,  D Atha, J Nubert, D Fan, A Agha, C Padgett, M Hutter, P Spieler, S Khattak</i></p>
 
     <!-- Conference Name -->
-    <p style="margin: 0; font-size: 14px;">Arxiv preprint</p>
+    <p style="margin: 0; font-size: 14px;">IEEE Transactions on Field Robotics (T-FR)</p>
 
     <!-- Abstract -->
     <p style="margin: 0; text-align: justify; font-size: 16px;">
@@ -124,7 +212,6 @@ I am a graduate student pursuing MSc. in Robotics, Systems and Control at ETH Zu
   <!-- Left side with image -->
   <div style="width: 35%;">
     <img src="../assets/images/covins_1.png" alt="COVINS-G expriment" style="width: 100%; height: auto;margin-bottom: 10px;">
-
     <img src="../assets/images/covins_2.png" alt="COVINS-G architecture" style="width: 100%; height: auto;">
   </div>
 

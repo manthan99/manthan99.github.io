@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Manthan Patel"
   avatar           : "/assets/images/bio.jpg"
-  bio              : "Graduate student pursuing MSc. in Robotics at ETH Zurich with focus on Computer Vision for field robots"
-  location         : "Pasadena, CA"
+  bio              : "Robotics engineer with focus on Computer Vision for field robots"
+  location         : "Zurich, Switzerland"
   email            :
   links:
     - label: "Email"
