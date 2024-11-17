@@ -113,7 +113,7 @@ I am a robotics engineer currently working as a <strong>research engineer</stron
     <p style="margin: 0; font-size: 14px;"><i><u>Manthan Patel</u>, Jonas Frey, Deegan Atha, Patrick Spieler, Marco Hutter, Shehryar Khattak </i></p>
 
     <!-- Conference Name -->
-    <p style="margin: 0; font-size: 14px;">Under review for IEEE RA-L</p>
+    <p style="margin: 0; font-size: 14px;">IEEE RA-L 2024</p>
 
     <!-- Abstract -->
     <p style="margin: 0; text-align: justify; font-size: 16px;">
