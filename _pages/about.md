@@ -26,7 +26,7 @@ I am a robotics engineer currently working as a <strong>research engineer</stron
   </div>
   <div style="width: 75%;">
      <p style="margin-bottom: 0;"><strong>Robotic Systems Lab, ETH Zurich, Switzerland</strong><br>Robotics Research Engineer<br>
-     <b>Projects:</b> Long-range autonomous hiking with ANYmal,<br> Large-scale synthetic perception dataset for goround robots</p>
+     <b>Projects:</b> Long-range autonomous hiking with ANYmal,<br> Large-scale synthetic perception dataset for ground robots</p>
   </div>
 </div>
 
